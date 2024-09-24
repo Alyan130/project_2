@@ -1,0 +1,1477 @@
+ /* body{
+    background-color:#010231;
+}
+
+#navbar{
+ width: 100%;
+ height:80px;
+ border: 0px white solid;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ border-bottom:1px #8080D7 solid;
+}
+
+#logo span{
+font-size: 20px;
+font-weight: bolder;
+text-align: center;
+color: white;
+padding-left: 110px;
+}
+
+.items{
+font-size: 15px;
+margin-right: 152px;
+border: 0px rgb(242, 242, 242) solid;
+}
+
+ .items a{
+color: white;
+text-decoration: none;
+padding-left: 87px;
+}
+
+
+#hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0px rgb(255, 255, 255) solid;
+padding: 120px 0px;
+}
+
+#content{
+    color: white;
+    border: 0px white solid;
+    margin-left: 5px;
+}
+
+#content span{
+    font-size: 68px;
+    font-weight: 1000;
+    line-height: 80px;
+    letter-spacing: -1px;
+}
+
+#content p{
+    font-size: 19px;
+    margin-top: 32px;
+    line-height: 26px;
+    margin-left: 4px;
+}
+
+#content .main{
+    width: 180px;
+    height: 55px;
+    width: 180px;
+    height: 55px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 6px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+}
+
+#buy{
+    background-color: #8080D7;
+}
+
+#sell{
+    background-color: #010231;
+    border: 2px #8080D7 solid;
+}
+
+#pic1{
+    border:px white solid;
+    background-color:#2C2660;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    right: 15px;
+    padding-bottom:10px;
+    background-image: url("./—Pngtree—gallery nft marketplace_6501249.png");
+    background-size: cover;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+
+}
+
+
+#featured{
+    border: 0px white solid;
+    width: 100%;
+    padding: 10px 120px;
+}
+
+#featured h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2%;
+}
+
+.features{
+  background-color:#2C2660;
+  width: 80%;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  position: relative;
+  animation: my 5s linear 0s infinite;
+}
+
+.company{
+    width: 200px;
+    height: 150px;
+}
+
+.company:nth-child(1){
+    background-image: url("./—Pngtree—company\ logo\ design\ trademark\ design_7716516.png");
+    background-size:cover;
+    filter: grayscale(1);
+    position: relative;
+    top: -10px;
+}
+
+.company:nth-child(2){
+    background-image: url("./—Pngtree—company\ logo\ vector_8793712.png");
+    background-size: cover;
+    filter:grayscale(1);
+}
+
+.company:nth-child(3){
+    background-image: url("./rA73APprj8wskQ0.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    filter:grayscale(1);
+}
+
+.company:nth-child(4){
+    background-image: url("./—Pngtree—company\ logo\ vector_8793712.png");
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+@keyframes my{
+0%{
+
+}
+50%{
+    margin-left: 110px;
+}
+90%{
+    margin-left: -110px;
+}
+}
+
+#analytics{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    border: px rgb(255, 255, 255) solid;
+    padding: 10px;
+    width: 80%;
+    margin-top: 120px;
+    padding: 0px 90px;
+}
+
+#analytics h2{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2%;
+    margin-bottom: 18px;
+}
+
+#content2{
+    color: white;
+    border: px white solid;
+    margin-left: 100px;
+     width: 511px; 
+}
+
+#content2 span{
+    font-size: 35px;
+    font-weight: 1000;
+    line-height: 45px;
+    letter-spacing: -1px;
+}
+
+#content2 p{
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+#content2 .main{
+    width: 200px;
+    height: 55px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 6px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    padding: 0px 10px;
+    background-color: #8080D7;
+}
+
+#pic2{
+    border: px white solid;
+    width: 583px;
+    height: 453px;
+    background-image: url(./vecteezy_flat-isometric-illustration-concept-two-people-control_7885567-removebg-preview.png);
+    background-size: cover;
+    position: relative;
+    left: -35px;
+}
+
+
+#analytics2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: px rgb(255, 255, 255) solid;
+    padding: 10px;
+    width: 80%;
+    margin-top: 66px;
+    padding: 0px 30px;
+}
+
+#analytics2 #content2{
+    color: white;
+    border: px white solid;
+}
+
+ #analytics2 #pic2{
+    border: px white solid;
+    width: 584px;
+    height: 440px;
+    background-image: url("./vecteezy_business-people-are-discussing-business-growth-and_5005222-removebg-preview.png");
+    background-size: cover;
+    position: relative;
+    left: 45px;
+}
+
+#testimonials{
+    width: 100%;
+    padding: 10px;
+    border: px white solid;
+    color: white;
+    margin-left: -26px;
+    margin-top: 65px;
+}
+
+#testimonials h2{
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 3%;
+    margin-bottom: 18px;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-bottom: 15px;
+}
+
+#testimonials span{
+        font-size: 35px;
+        font-weight: 1000;
+        line-height: 45px;
+        letter-spacing: -1px;
+        display: block;
+        text-align:center;
+}
+
+#testimonials p{
+    font-size: 15px;
+    margin-top: 0px;
+    line-height: 23px;
+    margin-top: -4px;
+}
+
+#card{
+    width: 82%;
+    border: px white solid;
+    padding: 5px 108px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards{
+    margin-top: 72px;
+    border: px white solid;
+    width: 300px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #252058;
+}
+
+.incards{
+    width: 125px;
+    height: 141px;
+    border-radius: 50%;
+    position: relative;
+    border: px #ffffff solid;
+    top: -37px;
+}
+
+.incards:nth-child(1){
+    background-image: url("./2289_SkVNQSBGQU1PIDEwMjgtMTIz.jpg");
+    background-size: cover;
+}
+
+.incards:nth-child(2){
+    background-image: url("");
+    background-size: cover;
+}
+
+.incards:nth-child(3){
+    background-image: url("https://img.freepik.com/free-vector/teen-boy-with-smile-face_1308-130771.jpg?t=st=1726949053~exp=1726952653~hmac=55f316eac4cf5ef0b5ff166263d480d8e4243514458567ff87121f2aa92f9223&w=740");
+    background-size: cover;    
+}
+
+#call{
+    border: px white solid;
+    width: 100%;
+    padding: 10px;
+    margin-top: 85px;
+}
+
+.mybox{
+    width: 76%;
+    height: 360px;
+    background: rgb(128,128,215);
+    background: linear-gradient(45deg, rgba(128,128,215,1) 0%, rgba(32,33,88,0.9626225490196079) 95%);
+    margin-left: 124px;
+
+}
+
+.mybox h2{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 5%;
+    margin-bottom: 18px;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-bottom: 15px;
+}
+
+.mybox span{
+    font-size: 35px;
+    font-weight: 1000;
+    line-height: 45px;
+    letter-spacing: -1px;
+    display: block;
+    text-align:center;
+    color: white;
+    margin-bottom: 49px;
+}
+
+.mybox button{
+    width: 200px;
+    height: 55px;
+    border-radius: 25px;
+    margin: 0px auto;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    padding: 0px 10px;
+    background-color: #000000;
+    display: block;
+}
+
+.action{
+    padding: 42px;
+} 
+
+#theme{
+    left: 25px;
+    background-color: white;
+    position: relative;
+    top: 24px;
+    border: 1px white solid;
+    border-radius: 25px;
+    width: fit-content;
+}
+
+#black{
+border-radius: 50%;
+width: 32px;
+height: 27px;
+background-color: #292323;
+}
+
+#purple{
+    border-radius: 50%;
+    width: 32px;
+    height: 27px;
+    background-color: #26045c;
+}
+
+
+ */
+
+
+
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color:#010231;
+}
+
+
+#navbar {
+  width: 100%;
+  height: 80px;
+  border: 0px white solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px #8080d7 solid;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+#logo span {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  padding-left: 0;
+}
+
+.items {
+  display: flex;
+  font-size: 15px;
+  border: 0px rgb(242, 242, 242) solid;
+}
+
+.items a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .items {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .items a {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #logo span {
+    font-size: 18px;
+  }
+
+  .items a {
+    font-size: 14px;
+  }
+}
+
+
+
+
+#hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 0px rgb(255, 255, 255) solid;
+  padding: 120px 0px;
+  animation: anim 1.8s ease-in-out 0s forwards;
+  scale: 0.5;
+  opacity: 0.5;
+}
+
+@keyframes anim {
+  100%{
+scale: 1;
+opacity: 1;
+  }
+}
+
+#content {
+  color: white;
+  border: 0px white solid;
+  margin-left: 5px;
+}
+
+#content span {
+  font-size: 68px;
+  font-weight: 1000;
+  line-height: 80px;
+  letter-spacing: -1px;
+}
+
+#content p {
+  font-size: 19px;
+  margin-top: 32px;
+  line-height: 26px;
+  margin-left: 4px;
+}
+
+#content .main {
+  width: 180px;
+  height: 55px;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-left: 6px;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+}
+
+#buy {
+  background-color: #8080d7;
+}
+
+#sell {
+  background-color: #010231;
+  border: 2px #8080d7 solid;
+}
+
+#pic1 {
+  background-color: #2c2660;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  right: 15px;
+  padding-bottom: 10px;
+  background-image: url("/—Pngtree—gallery\ nft\ marketplace_6501249.png");
+  background-size: cover;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  #hero {
+    flex-direction: column;
+    padding: 60px 0px;
+  }
+
+  #content span {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  #content p {
+    font-size: 18px;
+  }
+
+  #content .main {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  #pic1 {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #hero {
+    padding: 40px 0px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #content {
+    margin-left: 0;
+  }
+
+  #content span {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #content p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #content .main {
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  #pic1 {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  #content span {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #content p {
+    font-size: 14px;
+  }
+
+  #content .main {
+    width: 140px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  #pic1 {
+    width: 300px;
+    height: 300px;
+    margin-top:30px;
+    margin-left: 41px;
+  }
+}
+
+
+#featured {
+  border: 0px white solid;
+  width: 90%;
+  padding: 22px 132px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#featured h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2%;
+  margin-left: -235px;
+}
+
+.features {
+  background-color: #2c2660;
+  width: 0%;
+  padding: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  position: relative;
+  animation: scroll-animation 3s ease-in-out 1s forwards;
+  overflow: hidden;
+  opacity: 0.4;
+}
+
+.company {
+  width: 200px;
+  height: 150px;
+}
+
+.company:nth-child(1) {
+  background-image: url("/—Pngtree—company\ logo\ design\ trademark\ design_7716516.png");
+  background-size: cover;
+  filter: grayscale(1);
+  position: relative;
+  top: -10px;
+}
+
+.company:nth-child(2) {
+  background-image: url("/—Pngtree—company\ logo\ vector_8793712.png");
+  background-size: cover;
+  filter: grayscale(1);
+}
+
+.company:nth-child(3) {
+  background-image: url("/rA73APprj8wskQ0.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(1);
+}
+
+.company:nth-child(4) {
+  background-image: url("/—Pngtree—company\ logo\ vector_8793712.png");
+  background-size: cover;
+  filter: grayscale(1);
+}
+
+/* Animation */
+@keyframes scroll-animation {
+100%{
+  width:80%;
+  opacity: 1;
+}
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .features {
+    flex-direction: column;
+    animation: scroll-animation-tablet 6s ease-in-out 0s infinite;
+  }
+
+  .company {
+    margin-bottom: 20px;
+    width: 150px;
+    height: 100px;
+  }
+}
+
+/* Tablet Animation */
+@keyframes scroll-animation-tablet {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 50px;
+  }
+  100% {
+    margin-left: -50px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .features {
+    width: 100%;
+    flex-direction: column;
+    animation: scroll-animation-mobile 7s ease-in-out 0s infinite;
+  }
+
+  .company {
+    width: 120px;
+    height: 90px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Mobile Animation */
+@keyframes scroll-animation-mobile {
+100%{
+  width: 100%;
+  opacity: 1;
+}
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  #featured h2 {
+    font-size: 18px;
+  }
+
+  .company {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .features {
+    animation: scroll-animation-small-mobile 2s ease-in-out 1s forwards;
+    width: 1%;
+  }
+}
+
+/* Small Mobile Animation */
+@keyframes scroll-animation-small-mobile {
+  100%{
+    width: 80%;
+    opacity: 1;
+    margin-left: -80px;
+  }
+}
+
+
+
+
+
+
+#analytics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  width: 82%;
+  margin-top: 95px;
+  margin-left: 112px;
+}
+
+/* Heading and content styling */
+#analytics h2 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2%;
+  margin-bottom: 18px;
+}
+
+#content2 {
+  color: white;
+  width: 50%;
+  margin-left: 192px;
+  text-align: left;
+
+}
+
+#content2 span {
+  font-size: 35px;
+  font-weight: 1000;
+  line-height: 45px;
+  letter-spacing: -1px;
+}
+
+#content2 p {
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+#content2 .main {
+  width: 200px;
+  height: 55px;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  background-color: #8080d7;
+margin-left: 2px;
+}
+
+/* Image container */
+#analytics #pic2 {
+  width: 449px;
+  height: 425px;
+  background-image: url("/vecteezy_business-people-are-discussing-business-growth-and_5005222-removebg-preview.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Responsive Styles */
+
+/* Tablet View */
+@media (max-width: 1024px) {
+  #analytics {
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+    margin-left: 0;
+  }
+
+  #content2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #content2 span {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  #pic2 {
+    width: 450px;
+    height: 350px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  #analytics {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #content2 {
+    text-align: center;
+    padding: 0 15px;
+    margin-left: 11px;
+  }
+
+  #content2 span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #content2 p {
+    font-size: 14px;
+  }
+
+  #analytics #pic2 {
+    width: 350px;
+    height: 280px;
+  }
+}
+
+/* Small Mobile View */
+@media (max-width: 480px) {
+  #content2 span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  #content2 p {
+    font-size: 12px;
+  }
+
+  #analytics #content2 .main {
+    width: 186px;
+    height: 45px;
+    padding: 2px;
+    margin-left: 75px;
+  }
+
+  #pic2 {
+    width: 300px;
+    height: 230px;
+  }
+}
+
+
+
+
+
+
+
+#analytics2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 83%;
+  margin: 65px auto;
+  margin-left: -4px;
+}
+
+/* Heading and content styles */
+#analytics2 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2%;
+  margin-bottom: 18px;
+}
+
+#analytics2 #content2 {
+  color: white;
+  text-align: left;
+  width: 50%;
+  margin-left: 192px;
+}
+
+#content2 span {
+  font-size: 35px;
+  font-weight: 1000;
+  line-height: 45px;
+  letter-spacing: -1px;
+}
+
+#content2 p {
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+#content2 .main {
+  width: 200px;
+  height: 55px;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  background-color: #8080d7;
+}
+
+/* Image container */
+#analytics2 #pic2 {
+  width: 557px;
+  height: 425px;
+  background-image: url("/vecteezy_flat-isometric-illustration-concept-two-people-control_7885567-removebg-preview.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Responsive Styles */
+
+/* Tablet View */
+@media (max-width: 1024px) {
+  #analytics2 {
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+  }
+
+  #content2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #content2 span {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  #pic2 {
+    width: 350px;
+    height: 280px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  #analytics2 {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 9px;
+    margin-left: 72px;
+  }
+
+ #analytics2 #content2 {
+    text-align: center;
+    width: 90%;
+    margin-left:-127px;
+  }
+
+  #content2 span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #content2 p {
+    font-size: 14px;
+  }
+
+  #analytics2 #pic2 {
+    width: 300px;
+    height: 230px;
+  }
+}
+
+/* Small Mobile View */
+@media (max-width: 480px) {
+  #content2 span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  #content2 p {
+    font-size: 12px;
+  }
+
+ #analytics2 #content2 .main {
+    width: 180px;
+    height: 45px;
+    margin-left: 62px;
+    padding: 2px;
+  }
+
+#analytics2 #pic2 {
+    width: 315px;
+    height: 256px;
+    margin-left: -125px;
+  }
+}
+
+
+
+
+/* Main section styling */
+#testimonials {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin-top: 78px;
+}
+
+#testimonials h2 {
+  font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 3%;
+    margin-bottom: 18px;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-bottom: 15px;
+}
+
+#testimonials span {
+  font-size: 35px;
+  font-weight: 1000;
+  line-height: 45px;
+  letter-spacing: -1px;
+  display: block;
+  text-align:center;
+}
+
+/* Card container styling */
+#card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 45px;
+}
+
+/* Individual cards */
+.cards {
+  background-color: #252058;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.7s ease;
+}
+
+.cards h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.cards p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+.cards:hover{
+  scale: 1.1;
+}
+
+/* Circular images for the testimonials */
+.incards {
+  width: 125px;
+  height: 125px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-top: -50px;
+
+}
+
+/* Specific images for each testimonial */
+#james-image {
+  background-image: url("https://img.freepik.com/free-vector/smiling-young-man-illustration_1308-173524.jpg");
+}
+
+#charles-image {
+  background-image: url("https://img.freepik.com/free-vector/smiling-young-man-illustration_1308-173524.jpg");
+}
+
+#anderson-image {
+  background-image: url("https://img.freepik.com/free-vector/teen-boy-with-smile-face_1308-130771.jpg");
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  #testimonials h2 {
+      font-size: 22px;
+  }
+
+  #testimonials span {
+      font-size: 21px;
+      line-height: 30px;
+  }
+
+  #card {
+      flex-direction: column;
+      gap: 37px;
+  }
+
+  .cards {
+      width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+
+#testimonials{
+  margin-left: 11px;
+  margin-top: 2px;
+}
+
+  #testimonials h2 {
+      font-size: 20px;
+  }
+
+  #testimonials span {
+      font-size:20px;
+      line-height: 30px;
+  }
+
+  .cards {
+      width: 77%;
+      padding: 15px;
+      margin-left: 41px;
+      transition: all 0.7s ease;
+  }
+
+  .cards h2 {
+      font-size: 21px;
+  }
+
+  .cards p {
+      font-size: 12px;
+  }
+
+  .incards {
+      width: 100px;
+      height: 100px;
+  }
+
+  .cards:hover{
+    scale:1.1;
+  }
+}
+
+
+
+
+
+
+#call{
+  width: 100%;
+  padding: 10px;
+  margin-top: 92px;
+}
+
+.mybox{
+  width: 76%;
+  height: 360px;
+  background: rgb(128,128,215);
+  background: linear-gradient(45deg, rgba(128,128,215,1) 0%, rgba(32,33,88,0.9626225490196079) 95%);
+  margin-left: 148px;
+
+}
+
+.mybox h2{
+  color: black;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 5%;
+  margin-bottom: 18px;
+  text-align: center;
+  margin-bottom: 2px;
+  margin-bottom: 15px;
+}
+
+.mybox span{
+  font-size: 35px;
+  font-weight: 1000;
+  line-height: 45px;
+  letter-spacing: -1px;
+  display: block;
+  text-align:center;
+  color: white;
+  margin-bottom: 49px;
+}
+
+.mybox button{
+  width: 200px;
+  height: 55px;
+  border-radius: 25px;
+  margin: 0px auto;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+  padding: 0px 10px;
+  background-color: #000000;
+  display: block;
+}
+
+.action{
+  padding: 42px;
+} 
+
+#theme{
+  left: 25px;
+  background-color: white;
+  position: relative;
+  top: 24px;
+  border: 1px white solid;
+  border-radius: 25px;
+  width: fit-content;
+}
+
+#black{
+border-radius: 50%;
+width: 32px;
+height: 27px;
+background-color: #292323;
+}
+
+#purple{
+  border-radius: 50%;
+  width: 32px;
+  height: 27px;
+  background-color: #26045c;
+}
+
+@media (max-width:480px) {
+  
+
+  #call{
+margin-left: -112px;
+  }
+  
+  .mybox{
+    width: 334px;
+    /* height: 458px; */
+    padding: 30px 0px;
+  }
+
+  .mybox span{
+    font-size: 24px;
+  }
+
+  .mybox button{
+
+  }
+}
+
+
+
+/* General styling for the section */
+.about-section {
+  background-color: #000033;
+  color: white;
+  padding: 40px 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+
+/* Card grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+/* Styling for each card */
+.card {
+  background-color: #1a1a4d;
+  border-radius: 10px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-block {
+  width: 215px;
+  height: 225px;
+  background-color: #000033;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* Card title */
+.card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Card description */
+.card p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.card img{
+object-fit: cover;
+width: 225px;
+height: 220px;
+}
+/* Responsive design for larger screens */
+@media (min-width: 768px) {
+  .card-grid {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  h3 {
+      font-size: 40px;
+  }
+
+  .card {
+      padding: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  h3 {
+      font-size: 48px;
+  }
+}
+
+/* Responsive handling for smaller screens */
+.hidden-sm {
+  display: none;
+}
